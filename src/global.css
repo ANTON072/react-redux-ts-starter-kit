@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK JP Subset",
+    sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  appearance: none;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+small {
+  font-size: inherit;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+select {
+  border: 0;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+[aria-controls] {
+  cursor: pointer;
+}
