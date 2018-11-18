@@ -1,13 +1,12 @@
 import * as serviceWorker from "./serviceWorker"
 import api from "./api"
-import App from "./App"
+import App from "./components/App"
 import configureStore from "./redux/configureStore"
 import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter } from "react-router-dom"
 import { PersistGate } from "redux-persist/integration/react"
 import { Provider } from "react-redux"
-import "normalize.css"
 import "./global.css"
 
 const { store, persistor } = configureStore()

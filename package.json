@@ -14,7 +14,6 @@
     "humps": "^2.0.1",
     "husky": "^1.1.4",
     "lint-staged": "^8.0.4",
-    "normalize.css": "^8.0.1",
     "prettier": "^1.15.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
